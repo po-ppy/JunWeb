@@ -1,6 +1,6 @@
 $(document).ready(function () {
-    $("#my-video").width($("#my-video").parent().width());
     $("#left_side_bar").css("min-height",$(window).height());
+    $("#my-video").width($("#my-video").parent().width());
     $("#pdf_preview").css("height",$("#pdf_preview").width()*1.53);
 
     $("#wechat").popover({
@@ -25,4 +25,8 @@ $(window).scroll(function () {
 
 $(window).bind('orientationchange',function (e) {
     $("#left_side_bar").css("min-height",$(window).height());
+});
+
+$(".back-home").click(function () {
+    window.location.href = "index.html";
 });
