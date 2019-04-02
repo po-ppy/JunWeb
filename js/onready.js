@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    // $("#my-video").width($("#my-video").parent().width());
+    $("#my-video").width($("#my-video").parent().width());
     $("#left_side_bar").css("min-height",$(window).height());
     $("#pdf_preview").css("height",$("#pdf_preview").width()*1.53);
 
@@ -14,7 +14,7 @@ $(document).ready(function () {
     $("#wechat").click();
 });
 $(window).resize(function () {
-    // $("#my-video").width($("#my-video").parent().width());
+    $("#my-video").width($("#my-video").parent().width());
     $("#left_side_bar").css("min-height",$(window).height());
 });
 $(window).scroll(function () {
