@@ -69,3 +69,26 @@ img.hover-opacity:hover {
     -webkit-transition:all 0.2s; linear /* Safari and Chrome */
     -o-transition:all 0.2s linear; /* Opera */
 }
+
+body {
+    background-image: url("../img/IMG_1791.JPG");
+}
+.have-background-opacity {
+    background-color: rgba(0,0,0,0.5);
+}
+.opacity-30 {
+    background-color: rgba(0,0,0,0.3);
+}
+.opacity-60 {
+    background-color: rgba(0,0,0,0.3);
+}
+.opacity-100 {
+    opacity: 1;
+}
+.for-see {
+    opacity: 0.6;
+    background-color: #1b1e21;
+}
+#left_side_bar {
+    opacity: 0.9;
+}
