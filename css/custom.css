@@ -104,3 +104,30 @@ img.hover-opacity:hover {
     -webkit-transition:all 0.2s; linear /* Safari and Chrome */
     -o-transition:all 0.2s linear; /* Opera */
 }
+
+.year-title{
+    background-color: #B9D3EE;
+    border-left: 8px solid #1874CD;
+    border-radius: 4px;
+    padding: 5px 20px;
+    box-shadow: 0px 5px 5px #9FB6CD;
+}
+.year-title h5 {
+    margin: 0;
+}
+
+.year-content {
+    padding: 16px 0;
+    font-size: 0.9em;
+}
+.year-content li {
+    padding: 2px 0;
+}
+.year-content a {
+    text-decoration: none;
+    color: #00688B;
+}
+.year-content a:hover {
+    text-decoration: none;
+    color: #0088BB;
+}
