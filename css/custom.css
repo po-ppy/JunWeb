@@ -131,3 +131,11 @@ img.hover-opacity:hover {
     text-decoration: none;
     color: #0088BB;
 }
+
+.article-box img {
+    height: 16px;
+    width: 16px;
+}
+.article-box {
+    font-size: 0.9em;
+}
