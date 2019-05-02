@@ -13,6 +13,15 @@ $(document).ready(function () {
     });
     $("#wechat").click();
     $("#wechat").click();
+    $("#article-wechat").popover({
+        // animation: true,
+        placement: 'top',
+        html: true,
+        // container: "body",
+        content: "<img src='../img/wechat.jpg' class='embed-responsive'>",
+    });
+    $("#article-wechat").click();
+    $("#article-wechat").click();
     if($(window).width() < 992){
         $(".left-description").each(function () {
             $(this).parent().next().after($(this).parent());
